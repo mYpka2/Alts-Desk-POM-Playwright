@@ -1,0 +1,14 @@
+{
+  "name": "alts-desk-pom-playwright",
+  "version": "1.0.0",
+  "description": "My initial foray into structured test automation. This repository served as my first deep dive into the Page Object Model (POM) architecture using Playwright.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.1"
+  }
+}
