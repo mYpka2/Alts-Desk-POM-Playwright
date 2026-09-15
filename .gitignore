@@ -1,4 +1,3 @@
-
 # Playwright
 node_modules/
 /test-results/
@@ -6,3 +5,24 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Google OAuth Credentials
+credentials.json
+token.json
+
+# OS files
+.DS_Store
+Thumbs.db
+/POM/.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
